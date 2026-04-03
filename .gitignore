@@ -1,0 +1,13 @@
+# Java/Groovy
+*.class
+*.log
+target/
+build/
+.gradle/
+/.idea/
+.DS_Store
+.vscode/
+
+# OS files
+Thumbs.db
+ehthumbs.db
