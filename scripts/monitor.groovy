@@ -9,7 +9,7 @@ def runtime = Runtime.runtime
 def cpuLoad = (os.systemCpuLoad >= 0) ? String.format('%.2f', os.systemCpuLoad * 100) + '%' : 'n/a'
 
 println "System: ${os.name} ${os.arch} ${os.version}"
-println "Processors: ${os.availableProcessors()}"
+println "Processors: ${os.availableProcessors}"
 println "CPU load: ${cpuLoad}"
 println "Total memory (MB): ${runtime.totalMemory() / (1024*1024)}"
 println "Free memory (MB): ${runtime.freeMemory() / (1024*1024)}"
